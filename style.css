@@ -114,9 +114,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: 60%;
-}
-
-.banner-info a {
     text-align: center;
 }
 
