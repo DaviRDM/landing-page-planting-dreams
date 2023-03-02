@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat";
 }
 
 body {
@@ -15,14 +16,18 @@ body {
 
 header {
     background-color: #3a5a40;
+    height: 80px;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
     width: 800px;
-    height: 80px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
 }
 
 .header-logo img {
@@ -69,3 +74,65 @@ a {
     width: 40px;
     filter: drop-shadow(2px 2px 1px black);
 }
+
+section {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+
+section .container {
+    background-image: url(https://images6.alphacoders.com/114/1142152.jpg);
+    background-size: cover;
+    position: relative;
+    color: #3a5a40;
+    background-position: center;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    border-radius: 10px;
+    border: 0;
+    background-color: #A0D468;
+    color: white;
+    padding: 5px 20px;
+    font-family: natureza;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    margin: 0 auto;
+}
+
+button:hover {
+    border: 2px solid white;
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.banner-info a {
+    text-align: center;
+}
+
+/* section .container::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #c9edce71;
+    left: 0;
+    backdrop-filter: blur(1px);
+}
+
+section h1, section button, section p {
+    position: relative;
+    z-index: 1;
+} */
+
