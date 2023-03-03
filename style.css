@@ -12,6 +12,10 @@
 
 body {
     background-color: #c9edce;
+    background-image: url(https://wallpapers.com/images/hd/common-ivy-plant-4k-desktop-background-w4zuur31emg72qss.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 header {
@@ -26,7 +30,7 @@ header .container {
 }
 
 .container {
-    width: 800px;
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -55,6 +59,11 @@ header .container {
     margin: 0 auto;
 }
 
+.header-logo h1:hover {
+    text-shadow: 5px 5px 1px black;
+    
+}
+
 .header-logo a{
     height: 65px;
     width: 65px;
@@ -73,6 +82,12 @@ a {
 .social-media img {
     width: 40px;
     filter: drop-shadow(2px 2px 1px black);
+    border: 1px solid transparent;
+}
+
+.social-media img:hover {
+    border: 2px solid #A0D468;
+    border-radius: 40px;
 }
 
 section {
@@ -81,7 +96,7 @@ section {
     min-height: 400px;
 }
 
-section .container {
+#banner .container {
     background-image: url(https://images6.alphacoders.com/114/1142152.jpg);
     background-size: cover;
     position: relative;
@@ -93,7 +108,7 @@ section .container {
     justify-content: center;
 }
 
-button {
+.banner-info button {
     border-radius: 10px;
     border: 0;
     background-color: #A0D468;
@@ -115,6 +130,189 @@ button:hover {
     flex-direction: column;
     width: 60%;
     text-align: center;
+}
+
+#how-it-works {
+    display: flex;
+}
+
+#how-it-works .container {
+    background-color: #344e41;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works-title h1, .how-it-works-title h2 {
+    color: white;
+    text-align: center;
+}
+
+.how-it-works-title h2 {
+    font-size: 14px;
+}
+
+#how-it-works img {
+    height: 120px;
+    width: 120px;
+}
+
+.how-it-works-title {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex: 1;
+    justify-content: center;
+}
+
+.gardening {
+    display: flex;
+    flex: 2;
+}
+
+.gardening-desc {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: #A0D468;
+    height: 230px;
+    width: 1080px;
+    padding: 10px;
+    align-items: center;
+}
+
+.gardening-desc img {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.gardening-desc img:hover {
+    border: 2px solid #A0D468;
+}
+
+.gardening-desc h1 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+    width: 120px;
+    color: white;
+}
+
+#products {
+    display: flex;
+}
+
+#products .container {
+    background-color: #4f772d;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.sale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1308/Plant_green_shoots_eye_computer_desktop_wallpaper_16_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sale-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+    color: white;
+    flex: 2;
+    gap: 150px;
+    padding: 10px;
+}
+
+.sale-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.sale-img img:hover {
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.sale-img h1 {
+    margin-top: 10px;
+    background-color: #A0D468;
+    border-radius: 5px;
+}
+
+.sale-img h2 {
+    margin-top: 10px;
+    background-color: #A0D468;
+    border-radius: 5px;
+}
+
+.sale-desc {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex: 1;
+    width: 1080px;
+    align-items: center;
+}
+
+.sale-desc h1 {
+    height: fit-content;
+}
+
+.sale-img div {
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sale-img button {
+    margin-top: 10px;
+    background-color: #A0D468;
+    border-radius: 5px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-family: natureza;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.sale-img button:hover {
+    border: 2px solid white;
+}
+
+footer .container {
+    display: flex;
+    width: 1080px;
+    justify-content: center;
+}
+
+.footer-space {
+    display: flex;
+    width: 1080px;
+    height: 40px;
+    background-color: #A0D468;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
 }
 
 /* section .container::after {
